@@ -1,0 +1,8 @@
+FileWrangler
+
+User input(string): "Enter Directory:"
+
+Generate masterList of file names. Compare each newEntry to existing Masterlist. 
+If there is a match, generate a "duplicateList"
+
+Display duplicateList with <FileName> - <FileSize> - <DateModified>
