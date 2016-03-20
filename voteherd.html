@@ -11,17 +11,24 @@
 <h3>VOTEHERD</h3>
 <p>"I may not agree with your opinion, but I'll fight to the death for you to have one.</p>
 <h5>Everyone deserves a chance to have their voice heard.</h5>
-
-<form name="vote" action="handler.php" method="post">
-<p><input type="radio" id="apple" name="apple" />Apples</p>
-<p><input type="radio" id="bananas" name="bananas" />Bananas</p>
-<p><input type="submit" value="Submit" /></p>
-
 <?php
-print "<h2>PHP is Fun!</h2>";
-print "Hello world!<br>";
-print "I'm about to learn PHP!";
+	echo "Your preference is?";
 ?>
-</form>
+<fieldset>
+	<legend>Presidential Election:</legend>
+		<input type="button" value="Clinton">
+		<input type="button" value="Sanders">
+		<input type="Submit">
+</fieldset>
+
+<fieldset>
+	<legend>Lunch:</legend>
+	<form name="vote" action="handler.php" method="post">
+		<p><input type="radio" id="apple" name="apple" />Subs</p>
+		<p><input type="radio" id="bananas" name="bananas" />Hoagies</p>
+		<p><input type="radio" id="bananas" name="bananas" />Grinders</p>
+		<p><input type="submit" value="Submit" /></p>
+	</form>
+</fieldset>
 </body>
 </html>
